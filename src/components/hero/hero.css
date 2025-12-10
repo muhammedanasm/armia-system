@@ -1,0 +1,47 @@
+.hero-section {
+  background: #1090cb1a;
+  padding-top: 40px;
+  /* padding-bottom: 80px; */
+  position: relative;
+  /* overflow: hidden; */
+}
+.mobile {
+  color: #1090cb;
+}
+.hero-title {
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.hero-text {
+  color: #5c5c5c;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.hero-btn-primary {
+  background-color: #1090cb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 32px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(16, 144, 203, 0.3);
+}
+
+.hero-btn-primary:hover {
+  background-color: #0e7abf;
+}
+
+.hero-btn-outline {
+  border: 2px solid #1090cb;
+  color: #1090cb;
+  padding: 12px 32px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  background: #fff;
+}
+
+.hero-btn-outline:hover {
+  background-color: #e7f6fc;
+}

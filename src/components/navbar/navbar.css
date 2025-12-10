@@ -1,0 +1,19 @@
+.navbar {
+  padding: 1.5rem 4rem;
+  position: relative;
+  z-index: 99999999;
+}
+.transition {
+  color: #000000;
+}
+.transition:hover {
+  transition: all 0.3s ease-in-out;
+  color: #1090cb;
+}
+.contact-btn {
+  color: #fff;
+}
+
+.contact-btn:hover {
+  color: #fff;
+}

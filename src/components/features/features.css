@@ -1,0 +1,116 @@
+.features-section {
+  background: #ffffff;
+  padding: 80px 16px;
+  overflow: hidden;
+}
+
+.features-title {
+  text-align: center;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.features-subtitle {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #868686;
+  margin-top: 8px;
+  max-width: 555px;
+  margin: auto;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #148fca;
+}
+
+.feature-item h3 span {
+  color: #000000;
+}
+
+.feature-item p {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 24px;
+}
+
+.icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.icon-teal {
+  background-color: #14b8a6;
+}
+.icon-blue {
+  background-color: #3b82f6;
+}
+.icon-purple {
+  background-color: #8b5cf6;
+}
+.feature-image {
+  position: relative;
+  z-index: 9999;
+}
+
+.feature-circle-blue {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(
+    72.77% 72.77% at 50% 50%,
+    #f3ffd9 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  border-radius: 50%;
+  filter: blur(64px);
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.feature-circle-purple {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+
+  border-radius: 50%;
+  filter: blur(64px);
+  top: 50%;
+  right: -52%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  background: radial-gradient(
+      72.77% 72.77% at 50% 50%,
+      #ded9ff 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.left_section {
+  background: #08d3bb;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right_section p {
+  margin-bottom: 3px;
+}
